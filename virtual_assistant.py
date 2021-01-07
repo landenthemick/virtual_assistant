@@ -28,5 +28,5 @@ def audiopickup():
     except sr.UnknownValueError
 
 
-#(to be continued) currend date: January 5th, 2020
+#(to be continued) currend date: January 5th, 2021
 
