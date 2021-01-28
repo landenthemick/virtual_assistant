@@ -25,7 +25,8 @@ def audiopickup():
     try:
         data = r.recognize_google(audio)
         print('You said: '+data)
-    except sr.UnknownValueError
+    except sr.UnknownValueError:
+        pass
 
 def speak(audio):
     engine.say(audio)
